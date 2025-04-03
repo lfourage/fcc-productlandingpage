@@ -1,8 +1,23 @@
-#nav-bar {
+#header {
     position: fixed;
     top: 0;
     left: 0;
+    width: 100vw;
     display: flex;
-  }
-  
-  @media {}
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+#header-img {
+    width: 145px;
+    height: 145px;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media only screen and(max-width: 1000px){}
