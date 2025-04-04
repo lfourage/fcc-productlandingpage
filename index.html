@@ -3,32 +3,56 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <title>Landing Page</title>
   </head>
   <header id="header">
-    <img src="logoipsum-349.svg" alt="logo with a lion" id="header-img">
+    <img src="logoipsum-349.svg" alt="logo with a lion" id="header-img" />
     <nav id="nav-bar">
-        <ul>
-            <li><a class="nav-link" href="#video">video</a></li>
-            <li><a class="nav-link" href="#form">form</a></li>
-            <li><a class="nav-link" href="#submit">submit</a></li>
-        </ul>
+      <ul>
+        <li><a class="nav-link" href="#video">video</a></li>
+        <li><a class="nav-link" href="#form">form</a></li>
+        <li><a class="nav-link" href="#submit">submit</a></li>
+      </ul>
     </nav>
   </header>
   <body>
     <h1>Lorem Ipsum</h1>
+    <section id="presentation">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum,
+        eius maiores. Nisi provident magnam, esse ipsam id, ducimus nobis
+        veritatis nihil sapiente nulla corrupti ad hic earum nam eaque
+        reprehenderit.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum,
+        eius maiores. Nisi provident magnam, esse ipsam id, ducimus nobis
+        veritatis nihil sapiente nulla corrupti ad hic earum nam eaque
+        reprehenderit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Maiores possimus cumque atque dolore voluptatum est porro distinctio,
+        culpa voluptates delectus rerum, expedita autem quos deleniti modi id
+        nisi nemo hic!
+      </p>
+    </section>
     <iframe
-        id="video"
-        title="Lorem ispsum"
-        src="https://archive.org/download/nwmbc-Lorem_ipsum_video_-_Dummy_video_for_your_website/Lorem_ipsum_video_-_Dummy_video_for_your_website.mp4"
-        allowfullscreen
+      id="video"
+      title="Lorem ispsum"
+      src="https://archive.org/download/nwmbc-Lorem_ipsum_video_-_Dummy_video_for_your_website/Lorem_ipsum_video_-_Dummy_video_for_your_website.mp4"
+      allowfullscreen
     ></iframe>
     <form id="form" action="https://www.freecodecamp.com/email-submit">
-        <label for="#email">
-            <input id="email" name="email" type="email" placeholder="Enter your email address">
-        </label>
-        <input id="submit" type="submit">
+      <label for="#email"
+        >Enter your email:
+        <input
+          id="email"
+          name="email"
+          type="email"
+          placeholder="exemple@mail.com"
+          required
+        />
+      </label>
+      <button id="submit" type="submit">submit</button>
     </form>
   </body>
 </html>
