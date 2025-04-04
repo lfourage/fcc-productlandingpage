@@ -1,23 +1,55 @@
+/*-----------------General----------------*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------Header-----------------*/
+
 #header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap-reverse;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid black;
 }
 
 #header-img {
-    width: 145px;
-    height: 145px;
+    margin: 20px 0;
+    width: 120px;
+    height: 120px;
 }
 
 nav>ul {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
+
+nav>ul>li {
+    margin: 0 15px;
+}
+
+/*------------------Body----------------------*/
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 210px;
+}
+
+iframe {
+    width: 65%;
+    aspect-ratio: 16/9;
+    margin: 50px 15%;
+}
+
+/*----------------Responsiveness-------------*/
 
 @media only screen and(max-width: 1000px){}
